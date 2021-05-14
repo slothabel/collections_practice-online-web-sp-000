@@ -12,5 +12,5 @@ end
 
 def swap_elements(name)
   names = name.pop
-  name << names
+  name << names[1]
 end
