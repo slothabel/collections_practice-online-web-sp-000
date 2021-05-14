@@ -22,3 +22,7 @@ end
 def kesha_maker(name)
   name.each {|i| i[2]="$"}
 end
+
+def find_a(array)
+  array.start_with?("a")
+end
