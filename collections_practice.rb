@@ -11,6 +11,6 @@ def sort_array_char_count(num)
 end
 
 def swap_elements(name)
-  names = name.pop
-  name[1] << names
+  names = name.delete_at(1)
+  name << names
 end
