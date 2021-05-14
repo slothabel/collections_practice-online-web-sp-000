@@ -18,3 +18,9 @@ end
 def reverse_array(num)
   num.reverse
 end
+
+def kesha_maker(name)
+  name.each do |i|
+    i[2]="$"
+  end
+end
