@@ -14,3 +14,7 @@ def swap_elements(name)
   names = name.delete_at(1)
   name << names
 end
+
+def reverse_array(num)
+  num.sort.reverse
+end
