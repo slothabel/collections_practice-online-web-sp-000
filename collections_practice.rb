@@ -32,7 +32,7 @@ def sum_array(num)
 end
 
 def add_s(array)
-  array.map do |i|
+  array.each do |i|
     if i != "feet"
       i << "s"
     else
