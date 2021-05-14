@@ -5,3 +5,9 @@ end
 def sort_array_desc(num)
   num.sort.reverse
 end
+
+def sort_array_char_count(num)
+  num.sort do |i|
+    i.size
+  end
+end
