@@ -33,10 +33,11 @@ end
 
 def add_s(array)
   #unless i == feet
-  array.map do |i|
+  idk = array.map do |i|
     i << "s"
     unless i == "feet"
-      
+
     end
   end
+  idk
 end
