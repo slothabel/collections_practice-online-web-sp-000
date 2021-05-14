@@ -32,5 +32,11 @@ def sum_array(num)
 end
 
 def add_s(array)
-  
+  #unless i == feet
+  array.map do |i|
+    i << "s"
+    unless i == "feet"
+      
+    end
+  end
 end
